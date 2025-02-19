@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library in conjunction with a custom camera implementation. The issue arises when attempting to access the image URI after successful image selection. While the image picker returns a URI, it appears to be corrupted or incomplete, resulting in the app being unable to display or process the image.
